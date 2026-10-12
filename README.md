@@ -12,7 +12,6 @@
 [![NLTK](https://img.shields.io/badge/NLTK-3.6%2B-306998.svg?style=flat)](https://www.nltk.org/)
 
 [![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-NLP%20Specialization-00a4e4.svg?style=flat)](https://www.deeplearning.ai/)
-[![Coursera Course](https://img.shields.io/badge/Coursera-Course%20Certificate-0056D2.svg?style=flat&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/certificate/3E4G88JSSHSD)
 [![Coursera Specialization](https://img.shields.io/badge/Coursera-Specialization%20Certificate-0056D2.svg?style=flat&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/VY569JPZ3TZE)
 [![GitHub Stars](https://img.shields.io/github/stars/mohd-faizy/nlp-classification-and-vector-spaces?style=flat&logo=github&color=gold)](https://github.com/mohd-faizy/nlp-classification-and-vector-spaces/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/mohd-faizy/nlp-classification-and-vector-spaces?style=flat&logo=github&color=blue)](https://github.com/mohd-faizy/nlp-classification-and-vector-spaces/network/members)
