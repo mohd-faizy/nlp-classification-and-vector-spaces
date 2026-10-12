@@ -1,9 +1,8 @@
+# NLP - Classification and Vector Spaces
 <div align="center">
 
-<img src="assets/course_banner.jpg" alt="NLP - Classification and Vector Spaces" width="100%"/>
+<img src="assets/banner.png" alt="NLP - Classification and Vector Spaces" width="100%"/>
 
-# NLP - Classification and Vector Spaces
-### Coursera Specialization by DeepLearning.AI 
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
