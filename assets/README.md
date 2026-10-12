@@ -3,7 +3,7 @@
 This directory stores all visual media, architectural schematics, lecture diagrams, and notebook plots. All files are standardized with clear, numbered naming conventions corresponding to their course week and mathematical concept.
 
 ## 1. Course Banner
-- `course_banner.jpg`: Main header banner for course documentation.
+- `banner.png`: Main header banner for course documentation.
 
 ## 2. Theoretical Lecture Diagrams (Referenced in Documentation)
 | File | Topic & Concept |
@@ -61,7 +61,7 @@ This directory stores all visual media, architectural schematics, lecture diagra
 | `world_map_capitals.jpg` | `10_vector_spaces_and_word_analogies.ipynb` | World map illustration for country-capital analogies |
 | `vector_analogies.jpg` | `10_vector_spaces_and_word_analogies.ipynb` | Vector parallelogram analogy geometry |
 | `pca_word_embeddings.jpg` | `10_vector_spaces_and_word_analogies.ipynb` | 2D PCA cluster projection of word embeddings |
-| `gaussian_scatter_pca.svg` | `09_pca_dimensionality_reduction.ipynb` | Gaussian 2D scatter and PCA principal axes |
+| `gaussian_scatter_pca.png` | `09_pca_dimensionality_reduction.ipynb` | Gaussian 2D scatter and PCA principal axes |
 | `vector_spaces_detailed.jpg` | Week 3 Extra Reference | Detailed vector space illustration |
 | `english_french_translation.jpg` | `13_machine_translation_and_document_search.ipynb` | English-to-French word vector translation overview |
 | `transformation_matrix_x_to_y.jpg` | `13_machine_translation_and_document_search.ipynb` | Transformation matrix mapping space X to space Y |

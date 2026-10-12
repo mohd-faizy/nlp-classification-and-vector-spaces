@@ -133,12 +133,12 @@ All 13 interactive notebooks are located at the root directory, sequentially num
 │   └── README.md                       # Comprehensive data catalog
 │
 ├── 🖼️ assets/                          # Standardized, numbered figures and diagrams
-│   ├── course_banner.jpg               # Course title banner
+│   ├── banner.png                      # Course title banner
 │   ├── fig_01_supervised_learning_cost_minimization.png ...
 │   ├── fig_44_laplace_smoothing_probability_table.png
 │   ├── sigmoid_activation_plot.jpg     # Sigmoid plot for Week 1 assignment
 │   ├── confidence_ellipses.jpg          # Confidence ellipses for Week 2 lecture
-│   ├── world_map_capitals.jpg ... gaussian_scatter_pca.svg
+│   ├── world_map_capitals.jpg ... gaussian_scatter_pca.png
 │   ├── english_french_translation.jpg ... vector_transform_rotation.svg
 │   └── README.md                       # Assets inventory & description
 │
