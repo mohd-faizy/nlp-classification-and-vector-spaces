@@ -1,7 +1,6 @@
 """
 Natural Language Processing with Classification and Vector Spaces
-Utility functions module (Course 1 - DeepLearning.AI)
-Consolidated utilities supporting all assignments and lecture notebooks (Weeks 1-4).
+Utility functions module supporting assignments and lecture notebooks.
 """
 
 import os
@@ -20,13 +19,17 @@ from nltk.tokenize import TweetTokenizer
 # ---------------------------------------------------------------------------
 # Auto-configure local NLTK data paths so pre-downloaded corpora load seamlessly
 # ---------------------------------------------------------------------------
-_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_DIR = os.path.dirname(os.path.abspath(__file__))
+_BASE_DIR = os.path.dirname(_DIR)  # Project root directory
 for _candidate in [
     os.path.join(_BASE_DIR, 'data', 'corpora', 'nltk_stopwords'),
     os.path.join(_BASE_DIR, 'data', 'corpora'),
     os.path.join(_BASE_DIR, 'data', 'tmp2'),
     os.path.join(_BASE_DIR, 'data'),
     os.path.join(_BASE_DIR, 'tmp2'),
+    os.path.join(_DIR, 'data', 'corpora', 'nltk_stopwords'),
+    os.path.join(_DIR, 'data', 'corpora'),
+    os.path.join(_DIR, 'data'),
 ]:
     if os.path.exists(_candidate) and _candidate not in nltk.data.path:
         nltk.data.path.append(_candidate)

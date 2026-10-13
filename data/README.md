@@ -39,4 +39,4 @@ data/
 | `dictionaries/` | `english_french_dictionary.txt` | ~1.85 MB | Full dictionary pairs used for cross-lingual alignment. |
 | `dictionaries/` | `english_french_translation_train.txt` | ~178 KB | Training word pairs used to learn the transformation matrix $XR = Y$. |
 | `dictionaries/` | `english_french_translation_test.txt` | ~50 KB | Test word pairs used to compute nearest-neighbor translation accuracy. |
-| `corpora/` | `nltk_stopwords/` | ~23 KB | Local NLTK stopwords corpora (198 English stop words). Auto-detected by `utils.py`. |
+| `corpora/` | `nltk_stopwords/` | ~23 KB | Local NLTK stopwords corpora (198 English stop words). Auto-detected by `utils/utils.py`. |

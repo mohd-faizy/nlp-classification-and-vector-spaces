@@ -7,7 +7,8 @@ import string
 import unicodedata
 import pandas as pd
 
-_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_DIR = os.path.dirname(os.path.abspath(__file__))
+_BASE_DIR = os.path.dirname(_DIR)  # Project root directory
 
 
 def load_translations(vec_path='data/embeddings/wiki.multi.fr.vec', dict_path='data/dictionaries/english_french_dictionary.txt', capitals_path='data/dictionaries/country_capitals.txt'):
@@ -23,6 +24,9 @@ def load_translations(vec_path='data/embeddings/wiki.multi.fr.vec', dict_path='d
             candidates = [
                 os.path.join(_BASE_DIR, 'data', 'dictionaries', os.path.basename(p)),
                 os.path.join(_BASE_DIR, 'data', os.path.basename(p)),
+                os.path.join('data', 'dictionaries', os.path.basename(p)),
+                os.path.join('data', os.path.basename(p)),
+                os.path.join(_DIR, 'data', 'dictionaries', os.path.basename(p)),
             ]
             for cand in candidates:
                 if os.path.exists(cand):
@@ -31,6 +35,17 @@ def load_translations(vec_path='data/embeddings/wiki.multi.fr.vec', dict_path='d
                     else:
                         capitals_path = cand
                     break
+
+    if not os.path.exists(vec_path):
+        candidates_vec = [
+            os.path.join(_BASE_DIR, vec_path),
+            os.path.join(_BASE_DIR, 'data', 'embeddings', os.path.basename(vec_path)),
+            os.path.join('data', 'embeddings', os.path.basename(vec_path)),
+        ]
+        for cand in candidates_vec:
+            if os.path.exists(cand):
+                vec_path = cand
+                break
 
     fr_embeddings = KeyedVectors.load_word2vec_format(vec_path)
     with open(capitals_path, 'r', encoding='utf-8') as f:

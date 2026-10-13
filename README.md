@@ -110,7 +110,8 @@ All 13 interactive notebooks are located at the root directory, sequentially num
 │   ├── 12_hash_tables_and_locality_sensitive_hashing.ipynb # Week 4: Hash tables & random hyperplanes
 │   └── 13_machine_translation_and_document_search.ipynb # Week 4: Translation Matrix & LSH Search
 │
-├── 🐍 Core Modules & Helpers
+├── 📁 utils/                           # Core utilities & helper modules package
+│   ├── __init__.py                     # Package initialization & consolidated re-exports
 │   ├── utils.py                        # Unified utility module (tweet processing, build_freqs, PCA, cosine)
 │   ├── utils_nb.py                     # Visualization helpers (vector arrow plotting)
 │   └── utils_vecs.py                   # Word vector translation utilities
