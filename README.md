@@ -140,15 +140,8 @@ All 13 interactive notebooks are located at the root directory, sequentially num
 │   ├── sigmoid_activation_plot.jpg     # Sigmoid plot for Week 1 assignment
 │   ├── confidence_ellipses.jpg          # Confidence ellipses for Week 2 lecture
 │   ├── world_map_capitals.jpg ... gaussian_scatter_pca.png
-│   ├── english_french_translation.jpg ... vector_transform_rotation.svg
-│   └── README.md                       # Assets inventory & description
+│   └── english_french_translation.jpg ... vector_transform_rotation.svg
 │
-├── 📑 lectures/                        # Official PDF slide decks
-│   ├── 1-sentiment analysis with logistic regression.pdf
-│   ├── 2-sentiment analysis with naive bayes.pdf
-│   ├── 3-vector space models.pdf
-│   ├── 4-machine translation and document search.pdf
-│   └── README.md                       # Slide presentation directory
 │
 ├── requirements.txt                    # Environment dependencies
 ├── .gitignore                          # Clean repository ignore rules
