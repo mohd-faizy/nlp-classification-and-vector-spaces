@@ -96,19 +96,19 @@ All 13 interactive notebooks are located at the root directory, sequentially num
 
 ```text
 ├── 📓 Notebooks (Sequentially Numbered)
-│   ├── 01_tweet_preprocessing.ipynb                    # Week 1: Stemming, tokenization & stopwords
-│   ├── 02_visualizing_word_frequencies.ipynb           # Week 1: Word frequency dictionaries
-│   ├── 03_visualizing_decision_boundary.ipynb          # Week 1: Logistic regression decision boundary
-│   ├── 04_logistic_regression_sentiment_analysis.ipynb # Week 1: Logistic Regression Classifier
-│   ├── 05_visualizing_naive_bayes_confidence_ellipses.ipynb # Week 2: Naïve Bayes confidence ellipses
-│   ├── 06_naive_bayes_sentiment_analysis.ipynb         # Week 2: Naïve Bayes Sentiment Classifier
-│   ├── 07_numpy_linear_algebra_foundations.ipynb       # Week 3: Linear algebra with NumPy
-│   ├── 08_word_embeddings_and_vector_manipulation.ipynb # Week 3: Word vectors & cosine similarity
-│   ├── 09_pca_dimensionality_reduction.ipynb          # Week 3: PCA step-by-step projection
-│   ├── 10_vector_spaces_and_word_analogies.ipynb       # Week 3: Word Analogies & PCA Visuals
-│   ├── 11_vector_rotations_and_transformations.ipynb   # Week 4: 2D vector transformations & rotations
-│   ├── 12_hash_tables_and_locality_sensitive_hashing.ipynb # Week 4: Hash tables & random hyperplanes
-│   └── 13_machine_translation_and_document_search.ipynb # Week 4: Translation Matrix & LSH Search
+│   ├── 01_tweet_preprocessing.ipynb                          # Stemming, tokenization & stopwords
+│   ├── 02_visualizing_word_frequencies.ipynb                 # Word frequency dictionaries
+│   ├── 03_visualizing_decision_boundary.ipynb                # Logistic regression decision boundary
+│   ├── 04_logistic_regression_sentiment_analysis.ipynb       # Logistic Regression Classifier
+│   ├── 05_visualizing_naive_bayes_confidence_ellipses.ipynb  # Naïve Bayes confidence ellipses
+│   ├── 06_naive_bayes_sentiment_analysis.ipynb               # Naïve Bayes Sentiment Classifier
+│   ├── 07_numpy_linear_algebra_foundations.ipynb             # Linear algebra with NumPy
+│   ├── 08_word_embeddings_and_vector_manipulation.ipynb      # Word vectors & cosine similarity
+│   ├── 09_pca_dimensionality_reduction.ipynb                 # PCA step-by-step projection
+│   ├── 10_vector_spaces_and_word_analogies.ipynb             # Word Analogies & PCA Visuals
+│   ├── 11_vector_rotations_and_transformations.ipynb         # 2D vector transformations & rotations
+│   ├── 12_hash_tables_and_locality_sensitive_hashing.ipynb   # Hash tables & random hyperplanes
+│   └── 13_machine_translation_and_document_search.ipynb # Translation Matrix & LSH Search
 │
 ├── 📁 utils/                           # Core utilities & helper modules package
 │   ├── __init__.py                     # Package initialization & consolidated re-exports
