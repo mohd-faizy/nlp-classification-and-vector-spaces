@@ -191,7 +191,7 @@ def get_vectors(embeddings, words):
     X = np.zeros((1, 300))
     for word in words:
         eng_emb = embeddings[word]
-        X = np.row_stack((X, eng_emb))
+        X = np.vstack((X, eng_emb))
     X = X[1:, :]
     return X
 
