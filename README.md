@@ -43,7 +43,6 @@ This course covers foundational natural language processing algorithms and repre
 - [📌 Overview](#-overview)
 - [📑 Table of Contents](#-table-of-contents)
 - [📂 Repository Structure](#-repository-structure)
-- [📑 Weekly Curriculum & Notebook Index](#-weekly-curriculum--notebook-index)
 - [🚀 Getting Started & Installation](#-getting-started--installation)
   - [1. Prerequisites](#1-prerequisites)
   - [2. Clone the Repository](#2-clone-the-repository)
@@ -147,17 +146,6 @@ All 13 interactive notebooks are located at the root directory, sequentially num
 ├── .gitignore                          # Clean repository ignore rules
 └── README.md                           # Main documentation
 ```
-
----
-
-## 📑 Weekly Curriculum & Notebook Index
-
-| Week | Focus Topic | Primary Assignment | Lecture Notebooks | Lecture Slides |
-|:---:|---|---|---|:---:|
-| **1** | **Sentiment Analysis with Logistic Regression** | [`04_logistic_regression_sentiment_analysis.ipynb`](./04_logistic_regression_sentiment_analysis.ipynb) | • [`01_tweet_preprocessing.ipynb`](./01_tweet_preprocessing.ipynb) (Preprocessing)<br>• [`02_visualizing_word_frequencies.ipynb`](./02_visualizing_word_frequencies.ipynb) (Frequencies)<br>• [`03_visualizing_decision_boundary.ipynb`](./03_visualizing_decision_boundary.ipynb) (Decision Boundary) | [Slide Deck 1](./lectures/1-sentiment%20analysis%20with%20logistic%20regression.pdf) |
-| **2** | **Sentiment Analysis with Naïve Bayes** | [`06_naive_bayes_sentiment_analysis.ipynb`](./06_naive_bayes_sentiment_analysis.ipynb) | • [`05_visualizing_naive_bayes_confidence_ellipses.ipynb`](./05_visualizing_naive_bayes_confidence_ellipses.ipynb) (Confidence Ellipses) | [Slide Deck 2](./lectures/2-sentiment%20analysis%20with%20naive%20bayes.pdf) |
-| **3** | **Vector Space Models & Word Embeddings** | [`10_vector_spaces_and_word_analogies.ipynb`](./10_vector_spaces_and_word_analogies.ipynb) | • [`07_numpy_linear_algebra_foundations.ipynb`](./07_numpy_linear_algebra_foundations.ipynb) (NumPy Foundations)<br>• [`08_word_embeddings_and_vector_manipulation.ipynb`](./08_word_embeddings_and_vector_manipulation.ipynb) (Word Embeddings)<br>• [`09_pca_dimensionality_reduction.ipynb`](./09_pca_dimensionality_reduction.ipynb) (PCA Projection) | [Slide Deck 3](./lectures/3-vector%20space%20models.pdf) |
-| **4** | **Machine Translation & Document Search** | [`13_machine_translation_and_document_search.ipynb`](./13_machine_translation_and_document_search.ipynb) | • [`11_vector_rotations_and_transformations.ipynb`](./11_vector_rotations_and_transformations.ipynb) (Vector Rotations)<br>• [`12_hash_tables_and_locality_sensitive_hashing.ipynb`](./12_hash_tables_and_locality_sensitive_hashing.ipynb) (Locality Sensitive Hashing) | [Slide Deck 4](./lectures/4-machine%20translation%20and%20document%20search.pdf) |
 
 ---
 
