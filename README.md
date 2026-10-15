@@ -11,7 +11,6 @@
 [![SciPy](https://img.shields.io/badge/SciPy-1.7%2B-8CAAE6.svg?style=flat&logo=scipy&logoColor=white)](https://scipy.org/)
 [![NLTK](https://img.shields.io/badge/NLTK-3.6%2B-306998.svg?style=flat)](https://www.nltk.org/)
 
-[![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-NLP%20Specialization-00a4e4.svg?style=flat)](https://www.deeplearning.ai/)
 [![Coursera Specialization](https://img.shields.io/badge/Coursera-Specialization%20Certificate-0056D2.svg?style=flat&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/specialization/VY569JPZ3TZE)
 [![GitHub Stars](https://img.shields.io/github/stars/mohd-faizy/nlp-classification-and-vector-spaces?style=flat&logo=github&color=gold)](https://github.com/mohd-faizy/nlp-classification-and-vector-spaces/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/mohd-faizy/nlp-classification-and-vector-spaces?style=flat&logo=github&color=blue)](https://github.com/mohd-faizy/nlp-classification-and-vector-spaces/network/members)
@@ -28,9 +27,7 @@
 
 ## 📌 Overview
 
-Welcome to the official repository for **NLP - Classification and Vector Spaces**, the first course in the [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing) by [DeepLearning.AI](https://www.deeplearning.ai/) on [Coursera](https://www.coursera.org/learn/classification-vector-spaces-in-nlp).
-
-This course covers foundational natural language processing algorithms and representations:
+This repository includes foundational natural language processing algorithms and representations:
 - **Sentiment Analysis with Logistic Regression**: Preprocessing tweets with stemming and stopword removal, extracting positive/negative frequency features, and training via gradient descent.
 - **Sentiment Analysis with Naïve Bayes**: Probability modeling, Laplace add-1 smoothing, log likelihood, and log prior ratios with error analysis.
 - **Vector Space Models & Word Embeddings**: Continuous representations, word-by-word and word-by-document co-occurrence, Cosine similarity, and dimensionality reduction via Principal Component Analysis (PCA).
